@@ -22,7 +22,7 @@ public class GameScreen implements Screen {
 		this.game= game;
 		
 		camera= new OrthographicCamera();
-		camera.setToOrtho(false,1920,1080);
+		camera.setToOrtho(true,1920,1080);
 		
 		
 	}
@@ -30,11 +30,16 @@ public class GameScreen implements Screen {
 	@Override
 	public void render(float delta) {
 		//clears screen to white
-		Gdx.gl.glClearColor(1F,1F,1F,1F);
+		Gdx.gl.glClearColor(0.95F, 0.95F, 0.95F, 0.95F);
 		Gdx.gl.glClear(GL10.GL_COLOR_BUFFER_BIT);
 		
 		camera.update();
 		
+		batch.setProjectionMatrix(camera.combined);
+		
+		batch.begin();
+			batch.draw(Assets.spriteScreen,0,0);
+		batch.end();
 	}
 
 	@Override

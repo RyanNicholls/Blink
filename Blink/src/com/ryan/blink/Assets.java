@@ -7,17 +7,17 @@ import com.badlogic.gdx.graphics.g2d.Sprite;
 
 public class Assets {
 
+	public static Texture textureScreen;
+	public static Sprite spriteScreen;
+	
 	public static void load()
 	{
 		
-		Texture textureScreen;
-		Sprite spriteScreen;
-		
-		
-		textureScreen=new Texture(Gdx.files.internal("menu/background.png"));
+		textureScreen=new Texture(Gdx.files.internal("assets/menu/back.png"));
 		textureScreen.setFilter(TextureFilter.Linear, TextureFilter.Linear);
 		spriteScreen=new Sprite(textureScreen);
 		spriteScreen.flip(false, true);
+		
 	}
 	
 }

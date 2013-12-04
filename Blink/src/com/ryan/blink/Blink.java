@@ -8,10 +8,11 @@ public class Blink extends Game {
 	
 	@Override
 	public void create() {
+		Assets.load();
 		gameScreen=new GameScreen(this);
 		
 		setScreen(gameScreen);
-		Assets.load();
+		
 		
 	}
 
