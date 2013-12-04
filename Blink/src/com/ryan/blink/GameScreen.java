@@ -1,6 +1,8 @@
 package com.ryan.blink;
 
+import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Screen;
+import com.badlogic.gdx.graphics.GL10;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Sprite;
@@ -20,13 +22,17 @@ public class GameScreen implements Screen {
 		this.game= game;
 		
 		camera= new OrthographicCamera();
-		camera.setToOrtho(true,1920,1080);
+		camera.setToOrtho(false,1920,1080);
 		
-		batch=new SpriteBatch();
+		
 	}
 	
 	@Override
 	public void render(float delta) {
+		//clears screen to white
+		Gdx.gl.glClearColor(1F,1F,1F,1F);
+		Gdx.gl.glClear(GL10.GL_COLOR_BUFFER_BIT);
+		
 		camera.update();
 		
 	}

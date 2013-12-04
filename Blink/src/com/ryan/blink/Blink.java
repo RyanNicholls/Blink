@@ -11,6 +11,7 @@ public class Blink extends Game {
 		gameScreen=new GameScreen(this);
 		
 		setScreen(gameScreen);
+		Assets.load();
 		
 	}
 
