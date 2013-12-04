@@ -2,10 +2,18 @@ package com.ryan.blink;
 
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.OrthographicCamera;
+import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.Sprite;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 
 public class GameScreen implements Screen {
 	public Blink game;
 	OrthographicCamera camera;
+	SpriteBatch batch;
+	
+	
+	Texture textureScreen;
+	Sprite spriteScreen;
 	
 	public GameScreen(Blink game)
 	{
@@ -13,6 +21,8 @@ public class GameScreen implements Screen {
 		
 		camera= new OrthographicCamera();
 		camera.setToOrtho(true,1920,1080);
+		
+		batch=new SpriteBatch();
 	}
 	
 	@Override
