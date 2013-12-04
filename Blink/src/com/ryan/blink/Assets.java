@@ -13,7 +13,7 @@ public class Assets {
 	public static void load()
 	{
 		
-		textureScreen=new Texture(Gdx.files.internal("assets/menu/back.png"));
+		textureScreen=new Texture(Gdx.files.internal("menu/back.png"));
 		textureScreen.setFilter(TextureFilter.Linear, TextureFilter.Linear);
 		spriteScreen=new Sprite(textureScreen);
 		spriteScreen.flip(false, true);
