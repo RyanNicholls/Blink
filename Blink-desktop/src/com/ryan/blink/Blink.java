@@ -1,6 +1,7 @@
 package com.ryan.blink;
 
 import com.badlogic.gdx.Game;
+import com.ryan.blink.Screens.GameScreen;
 
 public class Blink extends Game {
 
