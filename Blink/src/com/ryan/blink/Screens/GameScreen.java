@@ -41,10 +41,16 @@ public class GameScreen implements Screen {
 		camera.update();
 		renderer=new IsometricTiledMapRenderer(Assets.caveMap);
 		renderer.render();
+		
+		renderer.getSpriteBatch().begin();
+		Assets.player.draw(renderer.getSpriteBatch());
+		renderer.getSpriteBatch().end();
+		
 		batch.setProjectionMatrix(camera.combined);
 	
 		batch.begin();
 			//batch.draw(Assets.spriteScreen, 0, 0);
+			
 		batch.end();
 	}
 
@@ -80,7 +86,8 @@ public class GameScreen implements Screen {
 
 	@Override
 	public void dispose() {
-		// TODO Auto-generated method stub
+		Assets.caveMap.dispose();
+		Assets.player.getTexture().dispose();
 		
 	}
 

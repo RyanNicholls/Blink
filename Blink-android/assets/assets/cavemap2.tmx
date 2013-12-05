@@ -2,10 +2,18 @@
 <map version="1.0" orientation="isometric" width="50" height="50" tilewidth="64" tileheight="32">
  <tileset firstgid="1" name="Iso" tilewidth="64" tileheight="64">
   <image source="IsoTileSet.png" width="640" height="1024"/>
+  <tile id="54">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="161" name="Iso2" tilewidth="64" tileheight="32">
+  <image source="iso-64x64-building_2.png" width="640" height="512"/>
  </tileset>
  <layer name="Tile Layer 1" width="50" height="50">
   <data encoding="base64" compression="zlib">
-   eJztzzERACAMALEuaMK/M2yE3g8RkDszd4nzuR6WHpYelh6WHpYelh6WHpYelh6WHpYelh6WHpYelh6WHpYelh6WHpYelh6WHpZtjw0ek+JXHQ==
+   eJztzzERACAMALG6QjYWsRF6P0RAzsycJe7nelh6WHpYelh6WHpYelh6WHpYelh6WHpYelh6WHpYelh6WHpYelh6WHpYelh6WLY9Nngv9FF3
   </data>
  </layer>
 </map>
