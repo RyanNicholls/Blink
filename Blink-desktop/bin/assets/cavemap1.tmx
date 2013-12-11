@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="isometric" width="50" height="50" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Cave" tilewidth="32" tileheight="32">
+  <image source="hyptosis_tile-art-batch-5.png" width="636" height="1219"/>
+ </tileset>
+ <tileset firstgid="723" name="Iso" tilewidth="32" tileheight="32">
+  <image source="./IsoTileSet.png" width="640" height="1024"/>
+ </tileset>
+ <tileset firstgid="1363" name="Kaede" tilewidth="32" tileheight="32">
+  <image source="Kaede.png" width="250" height="250"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzVmslqFEEYgDudmehBkyhoFj2YREHN4iWL4JLEk0nA7a6gPoHgI/hGHvQB1IveVXAjubhB9pMLfg1TONRUV/1VU93Tc/gg01RN/18t/f9Tnf0kSfZLYqOE7+9mXB5lzVO749wtHi43/VqnYwv1Mf1t4kjPf5qvrzf6rjeIGV/zPfX7hnjo36dQDspDcs+Q+BUf4CN8EjplvICX8MrhYSKvfbtswhZsww7swl6P3eMtvIP3HnEV7ZGmSdILNahDHxxIzR5f4Rt8hx/ws8C4fDlGzMdhCIZhBEbhRNrq8Qt+wx/4WyGHjLPEew7OwyRMwTTMGDx89l3ZXCLey3AFrsIiLBnWVV4O6XT8ihvEfBNuwW24Y5iHsubjWS1JntfC+t4n7gdpa3wbHfB4jcMbzWOTz1sCt8epef1IPJ5G9vhMvF+0mHvrPEvr7r55+8DmIcmDIWO6S5s9rd0QDsMOD1v8Ng/fPCgdUxOT9JuK7BGaByVjmsci/ZaEHnl7XPcIzYO2Md1mHe0EPqNcHnnPq376DMBgo//RCGNa53pf4FxJXfQ8Mkb7cZiA03CmzXtnjOAwGsFD1e0Sj4w52s7DAlyM4DGNw0wED1PdbltjGSu0WYW1CB7LOFyL4CGt23WXu/S9F8EjFra6/WRqfi4rl0cViF9hq9svpK37o5knFYhfIa3bi/odJa1ZXG31ut32vArNHzZ8ahZbW1PdbjqHC8kfkrH2qVlsbW11u+4x2+OXPyRjLakDJW1dNbtpn0vzh2SsJXWgpK3UIyR/+Ix1xqCwnc3Dta5C8ofPWLeLpKayzVUZMbbjYZunKrpIz6lDz0wOsa4OQz8MFLjG9HrXtcZ8HDJOEfsYjMNEgR559e7BSOeis8Q+B/OwUKCHzzm1wufc5zqxr8AqrBXoEXJOHfL+o2jy6t1lg0eV338017vqWt4+r/L7D1XvPkzNDkXX7UVgy+chdXunHbLPtv8DiHnuU5SDzaMb3q/puOpdl1fZhHh0G50e45j8A95yCwA=
+  </data>
+ </layer>
+</map>
